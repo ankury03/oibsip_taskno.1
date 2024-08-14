@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeBlog</title>
+
+    <!-- CSS and Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/b9161cc4c4.js"></script>
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#">WeBlog</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-1 mx-3">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Your intrest
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Food Blogs</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Travel Blogs</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Lifestyle Blogs</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Health and fitness Blogs</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Photography Blogs</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Fashion and beauty Blogs</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search blog"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-secondary btn-light" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <!--About-->
+
+    <section id="about">
+      <div class="intro">
+        <h1 class="name">WeBlog</h1>
+        <p class="brief">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies
+          leo integer malesuada nunc vel risus commodo viverra.
+        </p>
+      </div>
+    </section>
+
+    <!--Trending-->
+    <section id="trending">
+      <h1>Trending of the week.</h1>
+      <div class="row">
+        <div class="trend-card col-md-3 col-sm-6">
+          <div class="card">
+            <img src="images/demo1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4 class="card-title">Yoga</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="trend-card col-md-3 col-sm-6">
+          <div class="card">
+            <img src="images/demo2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4 class="card-title">Stress</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="trend-card col-md-3 col-sm-6">
+          <div class="card">
+            <img src="images/demo4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4 class="card-title">Office party</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="trend-card col-md-3 col-sm-6">
+          <div class="card">
+            <img src="images/demo5.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4 class="card-title">Fashion</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="#" class="btn btn-primary"> Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Blog section-->
+    <section id="blog">
+      <h1>Articles</h1>
+      <div class="article">
+        <div class="image">
+          <img src="images/car.avif" alt="" />
+        </div>
+        <div class="content">
+          <a href=""><h3>Lorem ipsum dolor sit amet consectetur.</h3></a>
+          <span>4 Days ago</span>
+        </div>
+      </div>
+      <hr />
+      <div class="article">
+        <div class="image">
+          <img src="images/gaming.webp" alt="" />
+        </div>
+        <div class="content">
+          <a href=""><h3>Lorem, ipsum dolor.</h3></a>
+          <span>1 Day ago</span>
+        </div>
+      </div>
+      <hr />
+      <div class="article">
+        <div class="image">
+          <img src="images/greece.jpg" alt="" />
+        </div>
+        <div class="content">
+          <a href=""><h3>Lorem ipsum dolor sit amet.</h3></a>
+          <span>17 hours ago</span>
+        </div>
+      </div>
+      <hr />
+      <div class="article">
+        <div class="image">
+          <img src="images/love.jpg" alt="" />
+        </div>
+        <div class="content">
+          <a href=""
+            ><h3>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </h3></a
+          >
+          <span>3 Days ago</span>
+        </div>
+      </div>
+      <hr />
+      <div class="article">
+        <div class="image">
+          <img src="images/smoking.webp" alt="" />
+        </div>
+        <div class="content">
+          <a href=""><h3>Lorem ipsum dolor sit amet consectetur.</h3></a>
+          <span>4 Days ago</span>
+        </div>
+      </div>
+      <hr />
+      <div class="article">
+        <div class="image">
+          <img src="images/skyDiving.jpg" alt="" />
+        </div>
+        <div class="content">
+          <a href=""><h3>Lorem ipsum dolor sit.</h3></a>
+          <span>6 Days ago</span>
+        </div>
+      </div>
+      <hr />
+      <div class="article">
+        <div class="image">
+          <img src="images/inflation.webp" alt="" />
+        </div>
+        <div class="content">
+          <a href=""><h3>Lorem, ipsum dolor.</h3></a>
+          <span>5 Days ago</span>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact-->
+    <section id="Contact">
+      <a href="#"><i class="fa-brands fa-square-instagram fa-xl"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook fa-xl"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter fa-xl"></i></a>
+      <a href="#"><i class="fa-solid fa-envelope fa-xl"></i></a>
+      <p class="Copyright">© Copyright WeBlog</p>
+    </section>
+  </body>
+</html>

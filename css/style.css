@@ -1,0 +1,128 @@
+body{
+    font-family: "Montserrat";
+    overflow-x: hidden;
+}
+
+#title{
+    background-color: rgb(166, 80, 246);
+}
+.navbar-brand{
+    font-size: 3rem;
+    font-family: "Ubuntu";
+}
+.intro{
+    position: relative;
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.intro::before{
+    content: "";
+    background-image: url("../images/background1.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.60;
+}
+.name{
+    position: relative;
+    font-size: 6rem;
+    margin-bottom: 25px;
+}
+.brief{
+    position: relative;
+line-height: 1.5;
+font-size: 2rem;
+text-align: center;
+}
+#trending{
+    background-color: #E3DFFD;
+    padding:0px 50px;
+    text-align: center;
+}
+.trend-card{
+    width: 23rem;
+    padding: 3% 2%;
+    margin: auto;
+}
+#trending h1{
+    font-family: "Dancing script";
+    font-size: 5rem;
+    border-bottom: 1px solid black;
+    padding: 25px;
+}
+.trend-card h4{
+    padding: 5px;
+}
+.trend-card p{
+    padding: 4px;
+}
+#blog{
+    background-color: #ECF2FF;
+    border-bottom: 1px solid black;
+}
+#blog h1 {
+    font-family: "Dancing script";
+    font-size: 4.5rem;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+.article{
+    display: flex;
+    margin-bottom: 30px;
+}
+.article img{
+    width: 400px;
+    height: 250px;
+    padding: 8px 25px 0px 10px;
+}
+
+.content{
+    align-self: center;
+}
+#blog a:link{
+    color: black;
+    text-decoration: none;
+}
+#blog a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+#Contact{
+    background-color: #408E91;
+    text-align: center;
+}
+#Contact i{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    color: #2C3333;
+    background-color: #DDF7E3;
+    margin:50px 8px 10px 8px;
+    line-height: 40px;
+    border-radius: 50%;
+}
+#Contact i:hover{
+    background-color: aquamarine;
+}
+.Copyright{
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+}
+@media (max-width : 938px ) {
+    .article{
+        display: block;
+        text-align: center;
+    }
+    .content{
+        margin-top: 20px;
+    }
+}
+
